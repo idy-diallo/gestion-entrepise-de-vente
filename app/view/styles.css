@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+img.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+header h2,
+nav,
+footer {
+    color: white;
+    padding: 10px;
+}
+
+header h2,
+footer {
+    margin-top: 5px auto;
+    background-color: black;
+}
+
+nav {
+    background-color: gray;
+}
+
+
+/*Photo du user dans la nav barre : round40*/
+.round40 {
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* ---------------formulaire----------------- */
+
+div.employee-form form {
+    width: 40%;
+    margin: auto;
+}
+
+form>div {
+    margin: 15px auto;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+}
+
+/* +++++--------------------------DÉBUT SECTION EMPLOYEE-------------------------+++++ */
+
+/* Début liste */
+div.employee-list, div.users-list {
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+div.employee-list>table {
+    display: block;
+    height: 300px;
+    overflow: scroll;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.employee-list table>thead {
+    background-color: black;
+    color: white;
+}
+
+div.employee-list>table tr>td {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+div.employee-list>a {
+    display: inline-block;
+    border: 1px solid blue;
+    background-color: #1E90FF;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Fin Liste */
+
+/* Début details */
+
+div.employee-details {
+    width: 25%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: gainsboro;
+    padding: 15px;
+}
+
+/* Fin détail */
+
+/* --------------Début Formulaire Employee---------------- */
+
+div.employee-form label, div.employee-form input {
+    display: inline-block;
+    margin-right: 35px;
+
+}
+
+div.employee-form select#officeId {
+    display: inline-block;
+    margin-left: 30px;
+    width: 200px;
+    position: relative;
+    right: 30px;
+}
+
+/* ----------------Fin Formulaire Employee------------------ */
+
+/* +++++--------------------------FIN SECTION EMPLOYEE-------------------------+++++ */
+
+
+/* +++++--------------------------DÉBUT SECTION USERS-------------------------+++++ */
+
+
+
+/* +++++--------------------------FIN SECTION USERS-------------------------+++++ */
+
+a:visited {
+    color: blue;
+}
+
+table a:visited {
+    color: #1E90FF;
+}
+
+a:hover {
+    color: black;
+}
